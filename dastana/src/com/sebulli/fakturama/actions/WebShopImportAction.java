@@ -49,17 +49,17 @@ import com.sebulli.fakturama.webshopimport.WebShopImportManager;
 public class WebShopImportAction extends Action {
 
 	//T: Text of the action to connect to the web shop and import new data
-	public final static String ACTIONTEXT = _("Web Shop"); 
+	//public final static String ACTIONTEXT = _("Web Shop"); 
 
 	/**
 	 * Constructor
 	 */
 	public WebShopImportAction() {
 
-		super(ACTIONTEXT);
+		//super(ACTIONTEXT);
 
 		//T: Tool Tip Text
-		setToolTipText(_("Get new orders and products from web shop") );
+		//setToolTipText(_("Get new orders and products from web shop") );
 
 		// The id is used to refer to the action in a menu or toolbar
 		setId(ICommandIds.CMD_WEBSHOP_IMPORT);
@@ -69,7 +69,7 @@ public class WebShopImportAction extends Action {
 		setActionDefinitionId(ICommandIds.CMD_WEBSHOP_IMPORT);
 
 		// sets a default 16x16 pixel icon.
-		setImageDescriptor(com.sebulli.fakturama.Activator.getImageDescriptor("/icons/16/shop_16.png"));
+		//setImageDescriptor(com.sebulli.fakturama.Activator.getImageDescriptor("/icons/16/shop_16.png"));
 	}
 
 	/**
