@@ -1,0 +1,11 @@
+Package: fakturama
+Version: 1.6.5
+Section: misc
+Priority: extra
+Architecture: amd64
+Depends: bash
+Installed-Size: 40000
+Maintainer: Gerd Bartelt, Ralf Heydenreich
+Homepage: http://www.fakturama.org
+Description: Free and Open Source Invoicing Software
+
