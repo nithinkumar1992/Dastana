@@ -614,13 +614,13 @@ public class ApplicationActionBarAdvisor extends ActionBarAdvisor {
 		ToolBarContributionItem tbci3 = new ToolBarContributionItem(toolbar3, "main3");
 		ToolBarContributionItem tbci4 = new ToolBarContributionItem(toolbar4, "main4");
 		
-		webShopImportActionTB.setImageDescriptor(Activator.getImageDescriptor("/icons/32/shop_32.png"));
+		//webShopImportActionTB.setImageDescriptor(Activator.getImageDescriptor("/icons/32/shop_32.png"));
 		//T: Text of the actions in the tool bar. Keep it short that it can be placed under the icon.
-		webShopImportActionTB.setText(_("Web Shop", "TOOLBAR"));
-		ActionContributionItem webShopImportCI = new ActionContributionItem(webShopImportActionTB);
-		webShopImportCI.setMode(ActionContributionItem.MODE_FORCE_TEXT);
-		if (Activator.getDefault().getPreferenceStore().getBoolean("TOOLBAR_SHOW_WEBSHOP"))
-			toolbar1.add(webShopImportCI);
+		//webShopImportActionTB.setText(_("Web Shop", "TOOLBAR"));
+	//	ActionContributionItem webShopImportCI = new ActionContributionItem(webShopImportActionTB);
+		//webShopImportCI.setMode(ActionContributionItem.MODE_FORCE_TEXT);
+		//if (Activator.getDefault().getPreferenceStore().getBoolean("TOOLBAR_SHOW_WEBSHOP"))
+		//	toolbar1.add(webShopImportCI);
 
 		printActionTB.setImageDescriptor(Activator.getImageDescriptor("/icons/32/printoo_32.png"));
 		printActionTB.setDisabledImageDescriptor(Activator.getImageDescriptor("/icons/32/printoo_dis_32.png"));
