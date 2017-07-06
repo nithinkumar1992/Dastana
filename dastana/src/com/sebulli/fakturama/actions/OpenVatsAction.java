@@ -29,7 +29,7 @@ import com.sebulli.fakturama.views.datasettable.ViewVatTable;
 public class OpenVatsAction extends Action {
 
 	//T: Text of the action to open the VATs
-	public final static String ACTIONTEXT = _("VATs"); 
+	public final static String ACTIONTEXT = _("GSTs"); 
 
 	/**
 	 * Constructor
