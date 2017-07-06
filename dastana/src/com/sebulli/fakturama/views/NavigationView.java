@@ -71,10 +71,10 @@ public class NavigationView extends ViewPart implements ICommandIds {
 
 		// Create the first expand bar "Import"
 		//T: Title of an expand bar in the navigations view
-		final ExpandBar bar1 = new ExpandBar(expandBarManager, top, SWT.NONE, _("Import"), "/icons/16/import_16.png" ,
+		/*final ExpandBar bar1 = new ExpandBar(expandBarManager, top, SWT.NONE, _("Import"), "/icons/16/import_16.png" ,
 				_("Import data into Fakturama"));
 
-		bar1.addAction(new WebShopImportAction());
+		bar1.addAction(new WebShopImportAction());*/
 		// Create the 2nd expand bar "Data"
 		//T: Title of an expand bar in the navigations view
 		final ExpandBar bar2 = new ExpandBar(expandBarManager, top, SWT.NONE, _("Data"), "/icons/16/data_16.png" ,
